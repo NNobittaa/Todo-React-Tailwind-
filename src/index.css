@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Inside your main CSS file, e.g., styles.css */
+@layer utilities {
+  .wrap-anywhere {
+    overflow-wrap: anywhere;
+  }
+}
+html{
+  height: -webkit-fill-available;
+}
+body{
+  margin: 0;padding: 0;
+  background-image: linear-gradient(45deg, rgba(188, 91, 252, 0.952), rgb(217, 167, 236));
+}
+*{
+  margin: 0;padding: 0;
+}
